@@ -1,0 +1,110 @@
+object frmMain: TfrmMain
+  Left = 1031
+  Height = 470
+  Top = 105
+  Width = 773
+  Caption = 'LaziPad'
+  ClientHeight = 451
+  ClientWidth = 773
+  Menu = MainMenu
+  Position = poScreenCenter
+  LCLVersion = '1.8.0.5'
+  object PageControl: TPageControl
+    Left = 0
+    Height = 451
+    Top = 0
+    Width = 773
+    Align = alClient
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+  end
+  object MainMenu: TMainMenu
+    left = 24
+    top = 40
+    object itmFile: TMenuItem
+      Caption = 'File'
+      object itmNewFile: TMenuItem
+        Action = actNewFile
+      end
+      object itmOpenFile: TMenuItem
+        Action = actOpenFile
+      end
+      object itmSaveFile: TMenuItem
+        Action = actSaveFile
+      end
+      object itmSaveFileAs: TMenuItem
+        Action = actSaveFileAs
+      end
+      object itmFileSeparator: TMenuItem
+        Caption = '-'
+      end
+      object itmExit: TMenuItem
+        Action = actExit
+      end
+    end
+    object itmView: TMenuItem
+      Caption = 'Zobrazit'
+      object itmFullscreen: TMenuItem
+        Action = actFullscreen
+      end
+    end
+    object itmHelp: TMenuItem
+      Caption = 'Nápověda'
+      object itmAbout: TMenuItem
+        Action = actAbout
+      end
+    end
+  end
+  object OpenDialog: TOpenDialog
+    left = 88
+    top = 32
+  end
+  object SaveDialog: TSaveDialog
+    left = 160
+    top = 32
+  end
+  object ActionList: TActionList
+    left = 248
+    top = 32
+    object actNewFile: TAction
+      Category = 'File'
+      Caption = 'Nový...'
+      OnExecute = actNewFileExecute
+      ShortCut = 16462
+    end
+    object actOpenFile: TAction
+      Category = 'File'
+      Caption = 'Otevřít...'
+      OnExecute = actOpenFileExecute
+      ShortCut = 16463
+    end
+    object actSaveFile: TAction
+      Category = 'File'
+      Caption = 'Uložit...'
+      OnExecute = actSaveFileExecute
+      ShortCut = 16467
+    end
+    object actSaveFileAs: TAction
+      Category = 'File'
+      Caption = 'Uložit jako...'
+      OnExecute = actSaveFileAsExecute
+    end
+    object actExit: TAction
+      Category = 'File'
+      Caption = 'Konec...'
+      OnExecute = actExitExecute
+      ShortCut = 49267
+    end
+    object actFullscreen: TAction
+      Category = 'View'
+      Caption = 'Celá obrazovka...'
+      OnExecute = actFullscreenExecute
+      ShortCut = 122
+    end
+    object actAbout: TAction
+      Category = 'Help'
+      Caption = 'About'
+    end
+  end
+end

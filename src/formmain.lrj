@@ -1,0 +1,13 @@
+{"version":1,"strings":[
+{"hash":43050532,"name":"tfrmmain.caption","sourcebytes":[76,97,122,105,80,97,100],"value":"LaziPad"},
+{"hash":315429,"name":"tfrmmain.itmfile.caption","sourcebytes":[70,105,108,101],"value":"File"},
+{"hash":93886228,"name":"tfrmmain.itmview.caption","sourcebytes":[90,111,98,114,97,122,105,116],"value":"Zobrazit"},
+{"hash":125275169,"name":"tfrmmain.itmhelp.caption","sourcebytes":[78,195,161,112,111,118,196,155,100,97],"value":"N\u00E1pov\u011Bda"},
+{"hash":120522334,"name":"tfrmmain.actnewfile.caption","sourcebytes":[78,111,118,195,189,46,46,46],"value":"Nov\u00FD..."},
+{"hash":13550590,"name":"tfrmmain.actopenfile.caption","sourcebytes":[79,116,101,118,197,153,195,173,116,46,46,46],"value":"Otev\u0159\u00EDt..."},
+{"hash":22394062,"name":"tfrmmain.actsavefile.caption","sourcebytes":[85,108,111,197,190,105,116,46,46,46],"value":"Ulo\u017Eit..."},
+{"hash":209017710,"name":"tfrmmain.actsavefileas.caption","sourcebytes":[85,108,111,197,190,105,116,32,106,97,107,111,46,46,46],"value":"Ulo\u017Eit jako..."},
+{"hash":105604654,"name":"tfrmmain.actexit.caption","sourcebytes":[75,111,110,101,99,46,46,46],"value":"Konec..."},
+{"hash":85215054,"name":"tfrmmain.actfullscreen.caption","sourcebytes":[67,101,108,195,161,32,111,98,114,97,122,111,118,107,97,46,46,46],"value":"Cel\u00E1 obrazovka..."},
+{"hash":4691652,"name":"tfrmmain.actabout.caption","sourcebytes":[65,98,111,117,116],"value":"About"}
+]}
