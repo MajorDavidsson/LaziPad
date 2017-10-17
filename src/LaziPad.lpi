@@ -12,14 +12,13 @@
       <Icon Value="0"/>
     </General>
     <i18n>
-      <EnableI18N Value="True"/>
       <OutDir Value="..\bin\lang"/>
     </i18n>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
       <RevisionNr Value="1"/>
-      <BuildNr Value="49"/>
+      <BuildNr Value="50"/>
       <Language Value="0405"/>
       <Attributes pvaDebug="True"/>
       <StringTable ProductVersion="0.0.1.13"/>
